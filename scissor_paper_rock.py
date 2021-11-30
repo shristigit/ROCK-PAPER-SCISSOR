@@ -6,6 +6,7 @@ from random import randint
 root = Tk()
 root.title("Rock Scissor Paper")
 root.configure(background="#9b59b6")
+root.geometry('400x400')
 
 # picture
 rock_img = ImageTk.PhotoImage(Image.open("rock-user.png"))
